@@ -1,4 +1,4 @@
-#sh/bin
+#/bin/dash
 echo 'del source if exist'
 rm -fr ~/Downloads/code_snippets
 
