@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dbg</string>
+	<string>mk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-&lt;#code#&gt;
-#endif</string>
+	<string>#pragma mark - &lt;#info#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8A93E222-B94A-4E9C-8554-2051B7D1C47E</string>
+	<string>CB64A1F3-0CFA-46F1-AC46-128CABFD992E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dbg</string>
+	<string>mk</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#ifdefef DEBUG</string>
+	<string>Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
