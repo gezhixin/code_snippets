@@ -12,47 +12,80 @@ curl -s https://raw.githubusercontent.com/gezhixin/code_snippets/master/xcode_co
 #### 快捷补全说明
 ##### Property
 - prs
-    ```obj
-    @property (nonatomic, strong) type *value;
-    ```
+```obj
+@property (nonatomic, strong) type *value;
+```
 - prw
-    ```obj
-    @property (nonatomic, weak) type *value;
-    ```
+```obj
+@property (nonatomic, weak) type *value;
+```
 - prc
-    ```obj
-    @property (nonatomic, copy) type *value;
-    ```
+```obj
+@property (nonatomic, copy) type *value;
+```
 - pra
-    ```obj
-    @property (nonatomic, assign) type  value;
-    ```
+```obj
+@property (nonatomic, assign) type  value;
+```
 - prb
-    ```obj
-    @property (nonatomic, copy) return(^ame)(value);
-    ```
+```obj
+@property (nonatomic, copy) return(^ame)(value);
+```
 
-##### 宏
+##### DEBUG
 - dbg
-    ```obj
-    #ifdef DEBUG
-    code
-    #endif
-    ```
- ##### 其他
- - mk
-    ```obj
-    #pragma mark - info
-    ```
+```obj
+#ifdef DEBUG
+code
+#endif
+```
+- tcb
+添加测试代码(test code block)
+```obj
+#warning test <#info#>
+#ifdef DEBUG
+
+<#code#>
+
+#endif
+```
+
+##### 其他
+- mk
+```obj
+#pragma mark - info
+```
 - dbt
-    ```obj
-    typedef return(^type)(parameter);
-    ```
+```obj
+typedef return(^type)(parameter);
+```
 - dpro
-    ```obj
-    @protocol <#name#> <<#super#>>
+```obj
+@protocol <#name#> <<#super#>>
 
-    <#code#>
+<#code#>
 
-    @end
-    ```
+@end
+```
+- ss   
+strong self
+```
+@strongify(self);
+```
+- ws    
+weak self
+```
+@weakify(self);
+```
+- itfe  
+```
+@interface <#ClassName#> ()
+
+<#code#>
+
+@end
+```
+- dbt
+```
+typedef <#return#>(^<#type#>)(<#parameter#>);
+```
